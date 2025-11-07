@@ -1,0 +1,7 @@
+{
+  "name": "E-Learning Emotion Analyzer",
+  "description": "A proof-of-concept e-learning platform that uses AI to analyze student engagement in real-time during a video session. The host can monitor students' emotions to gauge their understanding and adjust the lecture accordingly.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
