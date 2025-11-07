@@ -111,7 +111,7 @@ const ParticipantView: React.FC<ParticipantViewProps> = ({ participant, stream, 
 
     useEffect(() => {
         let timeoutId: number | null = null;
-        const ANALYSIS_INTERVAL_MS = 5000; 
+        const ANALYSIS_INTERVAL_MS = 10000; 
         const STAGGER_DELAY_MS = 1000;
 
         const analysisLoop = async () => {
